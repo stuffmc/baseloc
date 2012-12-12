@@ -13,6 +13,12 @@
 		4C4FB9BF1678AC2700BF2166 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FB9BD1678AC2700BF2166 /* Credits.rtf */; };
 		4C4FB9C21678AC2700BF2166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FB9C11678AC2700BF2166 /* AppDelegate.m */; };
 		4C4FB9C51678AC2700BF2166 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FB9C31678AC2700BF2166 /* MainMenu.xib */; };
+		4C4FB9D71678B56100BF2166 /* MyPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FB9D51678B56100BF2166 /* MyPopoverController.m */; };
+		4C4FB9D91678B5AA00BF2166 /* MyPopoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FB9DB1678B5AA00BF2166 /* MyPopoverController.xib */; };
+		4C4FB9F51678CDAB00BF2166 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FB9F31678CDAB00BF2166 /* MyWindowController.m */; };
+		4C4FB9F71678CE3800BF2166 /* MyWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FB9F91678CE3800BF2166 /* MyWindowController.xib */; };
+		4C4FBA001678D0D600BF2166 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FB9FE1678D0D600BF2166 /* MyViewController.m */; };
+		4C4FBA021678D16500BF2166 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FBA041678D16500BF2166 /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +34,20 @@
 		4C4FB9BE1678AC2700BF2166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		4C4FB9C01678AC2700BF2166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C4FB9C11678AC2700BF2166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C4FB9C41678AC2700BF2166 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4C4FB9D11678B51300BF2166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4C4FB9D31678B51C00BF2166 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		4C4FB9D41678B56100BF2166 /* MyPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPopoverController.h; sourceTree = "<group>"; };
+		4C4FB9D51678B56100BF2166 /* MyPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPopoverController.m; sourceTree = "<group>"; };
+		4C4FB9E11678B61300BF2166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MyPopoverController.xib; sourceTree = "<group>"; };
+		4C4FB9E31678B62000BF2166 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MyPopoverController.strings; sourceTree = "<group>"; };
+		4C4FB9F21678CDAB00BF2166 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		4C4FB9F31678CDAB00BF2166 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		4C4FB9FA1678CE4A00BF2166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MyWindowController.xib; sourceTree = "<group>"; };
+		4C4FB9FC1678CE7500BF2166 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MyWindowController.strings; sourceTree = "<group>"; };
+		4C4FB9FD1678D0D600BF2166 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		4C4FB9FE1678D0D600BF2166 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		4C4FBA051678D16B00BF2166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MyViewController.xib; sourceTree = "<group>"; };
+		4C4FBA071678D17500BF2166 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MyViewController.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +65,9 @@
 		4C4FB99F1678AC2700BF2166 = {
 			isa = PBXGroup;
 			children = (
+				4C4FB9D41678B56100BF2166 /* MyPopoverController.h */,
+				4C4FB9D51678B56100BF2166 /* MyPopoverController.m */,
+				4C4FB9DB1678B5AA00BF2166 /* MyPopoverController.xib */,
 				4C4FB9B41678AC2700BF2166 /* BaseLoc */,
 				4C4FB9AD1678AC2700BF2166 /* Frameworks */,
 				4C4FB9AB1678AC2700BF2166 /* Products */,
@@ -85,6 +107,12 @@
 				4C4FB9C01678AC2700BF2166 /* AppDelegate.h */,
 				4C4FB9C11678AC2700BF2166 /* AppDelegate.m */,
 				4C4FB9C31678AC2700BF2166 /* MainMenu.xib */,
+				4C4FB9FD1678D0D600BF2166 /* MyViewController.h */,
+				4C4FB9FE1678D0D600BF2166 /* MyViewController.m */,
+				4C4FBA041678D16500BF2166 /* MyViewController.xib */,
+				4C4FB9F21678CDAB00BF2166 /* MyWindowController.h */,
+				4C4FB9F31678CDAB00BF2166 /* MyWindowController.m */,
+				4C4FB9F91678CE3800BF2166 /* MyWindowController.xib */,
 				4C4FB9B51678AC2700BF2166 /* Supporting Files */,
 			);
 			path = BaseLoc;
@@ -137,6 +165,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				Base,
 			);
 			mainGroup = 4C4FB99F1678AC2700BF2166;
 			productRefGroup = 4C4FB9AB1678AC2700BF2166 /* Products */;
@@ -156,6 +186,9 @@
 				4C4FB9B91678AC2700BF2166 /* InfoPlist.strings in Resources */,
 				4C4FB9BF1678AC2700BF2166 /* Credits.rtf in Resources */,
 				4C4FB9C51678AC2700BF2166 /* MainMenu.xib in Resources */,
+				4C4FB9D91678B5AA00BF2166 /* MyPopoverController.xib in Resources */,
+				4C4FB9F71678CE3800BF2166 /* MyWindowController.xib in Resources */,
+				4C4FBA021678D16500BF2166 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +201,9 @@
 			files = (
 				4C4FB9BB1678AC2700BF2166 /* main.m in Sources */,
 				4C4FB9C21678AC2700BF2166 /* AppDelegate.m in Sources */,
+				4C4FB9D71678B56100BF2166 /* MyPopoverController.m in Sources */,
+				4C4FB9F51678CDAB00BF2166 /* MyWindowController.m in Sources */,
+				4C4FBA001678D0D600BF2166 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +229,37 @@
 		4C4FB9C31678AC2700BF2166 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C4FB9C41678AC2700BF2166 /* en */,
+				4C4FB9D11678B51300BF2166 /* Base */,
+				4C4FB9D31678B51C00BF2166 /* de */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4C4FB9DB1678B5AA00BF2166 /* MyPopoverController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4FB9E11678B61300BF2166 /* Base */,
+				4C4FB9E31678B62000BF2166 /* de */,
+			);
+			name = MyPopoverController.xib;
+			sourceTree = "<group>";
+		};
+		4C4FB9F91678CE3800BF2166 /* MyWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4FB9FA1678CE4A00BF2166 /* Base */,
+				4C4FB9FC1678CE7500BF2166 /* de */,
+			);
+			name = MyWindowController.xib;
+			sourceTree = "<group>";
+		};
+		4C4FBA041678D16500BF2166 /* MyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4FBA051678D16B00BF2166 /* Base */,
+				4C4FBA071678D17500BF2166 /* de */,
+			);
+			name = MyViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,6 +325,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BaseLoc/BaseLoc-Prefix.pch";
 				INFOPLIST_FILE = "BaseLoc/BaseLoc-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,6 +338,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BaseLoc/BaseLoc-Prefix.pch";
 				INFOPLIST_FILE = "BaseLoc/BaseLoc-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

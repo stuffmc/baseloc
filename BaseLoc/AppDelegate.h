@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MyWindowController.h"
+#import "MyViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSPopover *popover;
+@property (weak) IBOutlet NSView *customView;
+@property (strong) MyWindowController *myWindowController;
+@property (strong) MyViewController *myViewController;
 
 @end
